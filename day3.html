@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>changing context in paragraph เปลี่ยนข้อความ</h1>
+        <p id="changep">ข้อความนี้จะถูกเปลี่ยนเมื่อ Click ปุ่ม</p>
+
+        <button type="button" onclick='document.getElementById("changep").innerHTML="changed by JS" '>Click</button>
+        <button onclick='document.getElementById("changep").innerHTML="ข้อความนี้จะถูกเปลี่ยนเมื่อ Click ปุ่ม."'>เปลี่ยนกลับ</button>
+        <button type="button" onclick='document.getElementById("changep").style.fontSize="45px" '>เพิ่มขนาดของ Font</button>
+        <button type="button" onclick='document.getElementById("changep").style.fontSize="15px" '>ลดขนาดของ Font</button>
+        <button type="button" onclick="document.getElementById('hidep').style.display='none'">ซ่อนข้อความ</button>
+        <button type="button" onclick="document.getElementById('hidep').style.display='blocsk'">แสดงข้อความ</button>
+        <hr>
+        <h1>เปลี่ยนรูป</h1>
+        <button onclick="document.getElementById('เค้ก').src='เค้ก/เค้กส้ม'"เปลี่ยน เค้ก>เปลี่ยน เค้ก</button>
+        <button>เปลี่ยนขนมเค้ก</button>
+        <img id="cake" src="รูปเค้ก/เค้ก1.jpg" style="width: 100px">
+    </body>
+
+</html>
